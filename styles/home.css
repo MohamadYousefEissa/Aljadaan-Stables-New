@@ -88,8 +88,8 @@
 
 /* slider */
 #myCarousel img {
-  width: 1200px;
-  height: 700px;
+  width: 1120px;
+  height: 630px;
   border-radius: 20px;
 }
 
@@ -137,15 +137,14 @@ textarea {
 ::placeholder {
   color: var(--sec-color);
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  #myCarousel img {
+    width: 720px;
+    height: 405px;
+    border-radius: 14px;
+  }
   #home-bg-title {
     line-height: 100px;
-  }
-  #myCarousel img {
-    width: 90vw;
-    height: auto;
-    border-radius: 14px;
   }
 
   .f-thumbs__slide,
@@ -155,6 +154,13 @@ textarea {
   }
   .f-thumbs {
     margin-top: -4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  #myCarousel img {
+    width: 85vw;
+    height: auto;
+    border-radius: 14px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -185,11 +191,12 @@ textarea {
   }
   .f-thumbs__slide,
   .f-thumbs__slide__button {
-    width: 70px;
-    height: 60px;
+    width: 16vw;
+    height: 50px;
+    margin-top: 1.5rem;
   }
   .section-heading span {
-    font-size: 50px;
+    font-size: 40px;
   }
   input,
   textarea {
