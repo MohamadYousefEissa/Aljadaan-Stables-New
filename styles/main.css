@@ -31,12 +31,15 @@ nav img {
   width: 140px;
 }
 footer {
-  background: var(--sec-color);
+  background-color: var(--sec-color);
   margin-top: 6rem;
 }
 footer #footer-logo {
   filter: brightness(0) invert(1);
   width: 150px;
+}
+footer a {
+  width: fit-content;
 }
 #mobile-menu {
   position: fixed;
@@ -109,5 +112,8 @@ footer #footer-logo {
   nav img {
     filter: brightness(0) invert(1);
     width: 100px;
+  }
+  footer a {
+    width: auto;
   }
 }

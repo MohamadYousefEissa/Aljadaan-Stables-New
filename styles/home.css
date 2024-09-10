@@ -16,6 +16,7 @@
 #home-bg img {
   height: 100dvh;
   height: 100vh;
+  object-fit: cover;
 }
 #home-bg-title {
   position: absolute;
@@ -88,15 +89,15 @@
 
 /* slider */
 #myCarousel img {
-  width: 1120px;
-  height: 630px;
+  width: 1024px;
+  height: 576px;
   border-radius: 20px;
 }
 
 #myCarousel {
   width: 100%;
   padding: 1rem;
-  filter: drop-shadow(0 0 10px #bebebe);
+  filter: drop-shadow(0 0 10px #cacaca);
 }
 
 #myCarousel .f-carousel__slide {
@@ -134,10 +135,22 @@ textarea {
   outline: 0;
   width: 360px;
 }
+form button {
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
 ::placeholder {
   color: var(--sec-color);
 }
 @media screen and (max-width: 1024px) {
+  #home-bg img {
+    object-position: right;
+  }
   #myCarousel img {
     width: 720px;
     height: 405px;
@@ -145,6 +158,7 @@ textarea {
   }
   #home-bg-title {
     line-height: 100px;
+    margin-left: -34vw;
   }
 
   .f-thumbs__slide,
@@ -162,24 +176,6 @@ textarea {
     height: auto;
     border-radius: 14px;
   }
-}
-@media screen and (max-width: 480px) {
-  #home-bg-title {
-    line-height: 60px;
-    margin-left: 0;
-    margin-top: -10rem;
-  }
-  #home-bg button {
-    margin-top: 0;
-    margin-left: -10rem;
-    font-size: 12px;
-    padding: 5px 20px;
-  }
-  #home-bg img,
-  #home-pure-horses img {
-    object-fit: cover;
-    object-position: right;
-  }
   #home-pure-horses {
     display: flex;
     justify-content: center;
@@ -189,6 +185,25 @@ textarea {
     padding: 2.5rem 2.5rem 4rem 2.5rem;
     margin-left: 0;
   }
+  #home-bg-title {
+    line-height: 60px;
+    margin-left: 0;
+    margin-top: -14rem;
+  }
+  #home-bg button {
+    margin-top: -4rem;
+    margin-left: -12rem;
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #home-bg img,
+  #home-pure-horses img {
+    object-fit: cover;
+    object-position: right;
+  }
+
   .f-thumbs__slide,
   .f-thumbs__slide__button {
     width: 16vw;
@@ -198,6 +213,7 @@ textarea {
   .section-heading span {
     font-size: 40px;
   }
+
   input,
   textarea {
     width: 90vw;
