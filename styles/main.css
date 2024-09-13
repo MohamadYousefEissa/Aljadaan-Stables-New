@@ -2,14 +2,22 @@
   --main-color: #927055;
   --main-color-80: #927055cc;
   --sec-color: #d2af7e;
+  --main-font-family: "Montserrat";
+  --sec-font-family: "Playfair";
 }
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Playfair";
+  src: url(../fonts/PlayfairDisplaySC-Bold.ttf) format("truetype");
+  font-display: swap;
+}
 body {
-  font-family: "Montserrat";
+  font-family: var(--main-font-family);
 }
 li {
   list-style: none;
@@ -34,12 +42,20 @@ footer {
   background-color: var(--sec-color);
   margin-top: 6rem;
 }
+footer a {
+  width: fit-content;
+}
+
 footer #footer-logo {
   filter: brightness(0) invert(1);
   width: 150px;
 }
-footer a {
-  width: fit-content;
+
+footer a img {
+  transition: transform 0.2s;
+}
+footer a:hover img {
+  transform: scale(1.1);
 }
 #mobile-menu {
   position: fixed;
@@ -115,5 +131,8 @@ footer a {
   }
   footer a {
     width: auto;
+  }
+  .last-two-anchors {
+    width: 100%;
   }
 }
