@@ -5,7 +5,7 @@ const headerContent = `
             <div
               class="col d-flex flex-row flex-md-column flex-lg-row justify-content-between align-items-center py-3 px-2 px-xl-5"
             >
-              <a href="/index.html"
+              <a href="./index.html"
                 ><img src="./images/main-logo.svg" alt="Logo" class="img-fluid"
               /></a>
               <label class="hamburger d-md-none">
@@ -23,18 +23,18 @@ const headerContent = `
               >
                 <li><a href="">About us</a></li>
                 <li><a href="">The indigenous breed</a></li>
-                <li><a href="/stallions.html">Stallions</a></li>
+                <li><a href="./stallions.html">Stallions</a></li>
                 <li><a href="">Mares</a></li>
                 <li><a href="">Offsprings</a></li>
-                <li><a href="/contactus.html">Contact us</a></li>
+                <li><a href="./contactus.html">Contact us</a></li>
               </ul>
               <ul class="d-md-none p-0" id="mobile-menu">
                 <li><a href="">About us</a></li>
                 <li><a href="">The indigenous breed</a></li>
-                <li><a href="/stallions.html">Stallions</a></li>
+                <li><a href="./stallions.html">Stallions</a></li>
                 <li><a href="">Mares</a></li>
                 <li><a href="">Offsprings</a></li>
-                <li><a href="/contactus.html">Contact us</a></li>
+                <li><a href="./contactus.html">Contact us</a></li>
               </ul>
             </div>
           </div>
