@@ -15,30 +15,3 @@ hamburger.addEventListener("change", (ev) => {
   if (!ev.target.checked) nav.reverse();
   else nav.play();
 });
-
-// const form = document.querySelector("form");
-// const nameInput = form.querySelector("input[name='name']");
-// const emailInput = form.querySelector("input[name='email']");
-// const messageInput = form.querySelector("textarea[name='message']");
-// const button = form.querySelector("button");
-// form.addEventListener("submit", (ev) => {
-//   ev.preventDefault();
-//   if (
-//     nameInput.value.length < 30 &&
-//     nameInput.value.length >= 3 &&
-//     emailInput.value.length < 40 &&
-//     emailInput.value.length >= 3 &&
-//     messageInput.value.length < 1000 &&
-//     messageInput.value.length >= 3
-//   ) {
-//     nameInput.value = "";
-//     emailInput.value = "";
-//     messageInput.value = "";
-//     button.innerText = "Send Successfully";
-//     button.classList.add("bg-success");
-//     setTimeout(() => {
-//       button.innerText = "Send";
-//       button.classList.remove("bg-success");
-//     }, 2000);
-//   }
-// });

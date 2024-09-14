@@ -3,6 +3,9 @@
   src: url(../fonts/ae_Granada-1.ttf) format("truetype");
   font-display: swap;
 }
+main {
+  margin: 0;
+}
 #home-bg {
   display: flex;
   justify-content: center;
@@ -103,7 +106,7 @@
 }
 
 .f-thumbs {
-  margin-top: -5rem;
+  margin-top: -4rem;
 }
 
 .f-carousel__thumbs.is-classic {
@@ -165,14 +168,14 @@ form button {
   #home-bg img {
     object-position: right;
   }
+  #home-bg-title {
+    line-height: 100px;
+    margin-left: -34vw;
+  }
   #myCarousel img {
     width: 720px;
     height: 405px;
     border-radius: 14px;
-  }
-  #home-bg-title {
-    line-height: 100px;
-    margin-left: -34vw;
   }
 
   .f-thumbs__slide,
@@ -181,7 +184,7 @@ form button {
     height: 70px;
   }
   .f-thumbs {
-    margin-top: -4rem;
+    margin-top: -3.5rem;
   }
 }
 @media screen and (max-width: 767px) {

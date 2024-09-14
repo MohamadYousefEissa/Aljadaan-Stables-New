@@ -1,5 +1,5 @@
 footer {
-  /* position: fixed; */
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -15,11 +15,16 @@ h1 {
 }
 main {
   margin-top: 6rem;
-  height: 40vh;
 }
 p {
   margin-top: 5rem;
 }
 main a {
   color: #181818;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    position: static;
+  }
 }

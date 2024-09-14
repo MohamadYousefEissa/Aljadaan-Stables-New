@@ -20,7 +20,7 @@ const footerContent = `
             </div>
             <div class="d-flex flex-column gap-2 gap-md-0">
               <a href="">Partnership</a>
-              <a href="">Stallions</a>
+              <a href="/stallions.html">Stallions</a>
               <a href="">Mares</a>
             </div>
             <div

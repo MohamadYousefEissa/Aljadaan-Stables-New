@@ -23,7 +23,7 @@ const headerContent = `
               >
                 <li><a href="">About us</a></li>
                 <li><a href="">The indigenous breed</a></li>
-                <li><a href="">Stallions</a></li>
+                <li><a href="/stallions.html">Stallions</a></li>
                 <li><a href="">Mares</a></li>
                 <li><a href="">Offsprings</a></li>
                 <li><a href="/contactus.html">Contact us</a></li>
@@ -31,7 +31,7 @@ const headerContent = `
               <ul class="d-md-none p-0" id="mobile-menu">
                 <li><a href="">About us</a></li>
                 <li><a href="">The indigenous breed</a></li>
-                <li><a href="">Stallions</a></li>
+                <li><a href="/stallions.html">Stallions</a></li>
                 <li><a href="">Mares</a></li>
                 <li><a href="">Offsprings</a></li>
                 <li><a href="/contactus.html">Contact us</a></li>
