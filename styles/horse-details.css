@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Playfair regular";
-  src: url(/fonts/PlayfairDisplaySC-Regular.ttf) format("truetype");
+  src: url(../fonts/PlayfairDisplaySC-Regular.ttf) format("truetype");
   font-display: swap;
 }
 

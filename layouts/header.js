@@ -9,7 +9,7 @@ const headerContent = `
                 ><img src="./images/main-logo.svg" alt="Logo" class="img-fluid"
               /></a>
               <label class="hamburger d-md-none">
-                <input type="checkbox" />
+                <input type="checkbox" id="hamburger" />
                 <svg viewBox="0 0 32 32">
                   <path
                     class="line line-top-bottom"
