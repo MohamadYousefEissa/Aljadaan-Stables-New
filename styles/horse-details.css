@@ -97,8 +97,11 @@ section > h1 {
   color: var(--main-color);
 }
 hr {
-  color: var(--main-color);
+  border: none;
   width: 75%;
+  background: var(--main-color);
+  opacity: 0.6;
+  height: 1px;
 }
 #pedigree li {
   border: 1px solid #000;
@@ -166,9 +169,18 @@ hr {
   }
 
   #pedigree li {
-    width: 100px;
+    width: 120px;
     padding: 0 3vw;
     font-size: 12px !important;
+  }
+  hr {
+    width: 100%;
+  }
+  #pedigree ul:nth-of-type(2) {
+    gap: 120px;
+  }
+  nav a {
+    color: #fff;
   }
 }
 
@@ -185,10 +197,20 @@ hr {
     height: 50px;
     margin-top: 1.5rem;
   }
+  #pedigree li {
+    width: 100px;
+  }
 }
 @media screen and (max-width: 405px) {
   #pedigree li {
-    width: 75px;
+    width: 90px;
+    padding: 0 5px;
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 374px) {
+  #pedigree li {
+    width: 80px;
     padding: 0 5px;
     font-size: 12px !important;
   }
