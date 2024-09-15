@@ -15,25 +15,25 @@ const footerContent = `
           >
             <div class="d-flex flex-column gap-2 gap-md-0">
               <a href="./index.html">Home</a>
-              <a href="">About us</a>
-              <a href="">Syria</a>
+              <a href="index.html#home-article">About us</a>
+              <a href="index.html#home-pure-horses">Syria</a>
             </div>
             <div class="d-flex flex-column gap-2 gap-md-0">
-              <a href="">Partnership</a>
               <a href="./stallions.html">Stallions</a>
-              <a href="">Mares</a>
+              <a href="#">Mares</a>
+              <a href="#" >Offsprings</a>
             </div>
             <div
               class="d-flex flex-row flex-md-column gap-4 gap-md-0 flex-grow-1 mt-2 mt-md-0"
             >
-              <a href="" class="last-two-anchors">Offsprings</a>
-              <a href="./contactus.html" class="last-two-anchors">Contact us</a>
+              
+              <a href="./contactus.html" class="last-anchor" >Contact us</a>
             </div>
           </div>
           <div
             class="col d-flex gap-4 justify-content-center justify-content-lg-end mt-5 mt-md-0"
           >
-            <a href="">
+            <a href="https://www.facebook.com/profile.php?id=100075902982163" target="_blank">
               <img
                 src="./icons/facebook.svg"
                 alt="facebbok"

@@ -26,11 +26,10 @@
           الخيل معقود بنواصيها الخير <br />
           إلـى يـوم الـقيـامــة
         </h1>
-        <button>Read more</button>
       </section>
 
-      <section id="home-article">
-        <div class="container mt-3">
+      <section id="home-article" class="pt-7 pt-md-5">
+        <div class="container">
           <div class="row">
             <div class="col">
               <h1 class="section-heading"><span>W</span>ho We Are</h1>
@@ -53,13 +52,13 @@
                   present the Syrian Arabian Horses as a unique group worldwide.
                 </p>
               </article>
-              <button class="rm-btn">Read more</button>
+              <button>Read more</button>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="home-pure-horses">
+      <section id="home-pure-horses" class="pt-7 pt-md-5">
         <img src="./images/home-pure-horses.jpg" alt="pure-horses" />
         <div id="box">
           <article>
@@ -73,14 +72,16 @@
               culture has shaped the nature and personalities of Syrians.
             </p>
           </article>
-          <button class="rm-btn">Read more</button>
         </div>
       </section>
+
+      <!-- slider images required a not local images like "./images/*" it has to be a link like "www.*" -->
 
       <section id="home-gallery">
         <h1 class="section-heading text-center"><span>G</span>allery</h1>
         <div class="mt-5">
           <div class="f-carousel" id="myCarousel">
+            <!-- slide 1 -->
             <div
               class="f-carousel__slide"
               data-thumb-src="https://lipsum.app/id/4/192x144"
@@ -92,6 +93,8 @@
                 data-lazy-src="https://lipsum.app/id/4/640x480"
               />
             </div>
+            <!-- slide 1 -->
+
             <div
               class="f-carousel__slide"
               data-thumb-src="https://lipsum.app/id/5/192x144"
@@ -188,6 +191,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script src="./js/home.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/app.js"></script>
   </body>

@@ -21,19 +21,19 @@ const headerContent = `
               <ul
                 class="d-none d-md-flex align-items-end h-100 gap-4 gap-lg-5 mt-md-3 mt-lg-0 p-0"
               >
-                <li><a href="">About us</a></li>
-                <li><a href="">The indigenous breed</a></li>
+                <li><a href="index.html#home-article">About us</a></li>
+                <li><a href="index.html#home-pure-horses">The indigenous breed</a></li>
                 <li><a href="./stallions.html">Stallions</a></li>
-                <li><a href="">Mares</a></li>
-                <li><a href="">Offsprings</a></li>
+                <li><a href="#">Mares</a></li>
+                <li><a href="#">Offsprings</a></li>
                 <li><a href="./contactus.html">Contact us</a></li>
               </ul>
               <ul class="d-md-none p-0" id="mobile-menu">
-                <li><a href="">About us</a></li>
-                <li><a href="">The indigenous breed</a></li>
+                <li><a href="index.html#home-article" id="not-link">About us</a></li>
+                <li><a href="index.html#home-pure-horses" id="not-link">The indigenous breed</a></li>
                 <li><a href="./stallions.html">Stallions</a></li>
-                <li><a href="">Mares</a></li>
-                <li><a href="">Offsprings</a></li>
+                <li><a href="#">Mares</a></li>
+                <li><a href="#">Offsprings</a></li>
                 <li><a href="./contactus.html">Contact us</a></li>
               </ul>
             </div>

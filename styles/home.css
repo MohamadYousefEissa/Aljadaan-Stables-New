@@ -6,6 +6,11 @@
 main {
   margin: 0;
 }
+
+.pt-7 {
+  padding-top: 6rem;
+}
+
 #home-bg {
   display: flex;
   justify-content: center;
@@ -29,18 +34,8 @@ main {
   line-height: 150px;
   text-align: center;
 }
-#home-bg button {
-  position: absolute;
-  margin-top: 14rem;
-  margin-left: -70vw;
-  border: 0;
-  background-color: var(--main-color);
-  color: #fff;
-  padding: 6px 35px;
-  border-radius: 10px;
-}
 
-.rm-btn {
+#home-article button {
   border: 0;
   padding: 0;
   font-weight: 600;
@@ -74,7 +69,7 @@ main {
   width: 400px;
   background-color: #ffffffa3;
   border-radius: 16px;
-  padding: 2.5rem 2.5rem 4rem 2.5rem;
+  padding: 2.5rem;
   margin-left: 6rem;
 }
 
@@ -199,19 +194,12 @@ form button {
   }
   #home-pure-horses #box {
     width: 95vw;
-    padding: 2.5rem 2.5rem 4rem 2.5rem;
     margin-left: 0;
   }
   #home-bg-title {
     line-height: 60px;
     margin-left: 0;
-    margin-top: -14rem;
-  }
-  #home-bg button {
-    margin-top: -4rem;
-    margin-left: -12rem;
-    font-size: 12px;
-    padding: 5px 20px;
+    margin-top: -16rem;
   }
 }
 @media screen and (max-width: 480px) {
