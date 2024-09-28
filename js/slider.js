@@ -1,3 +1,9 @@
+Fancybox.bind('[data-fancybox="gallery"]', {
+  Slideshow: {
+    playOnStart: true,
+  },
+  Thumbs: false,
+});
 new Carousel(
   document.getElementById("myCarousel"),
   {
@@ -10,6 +16,7 @@ new Carousel(
     Autoplay: {
       timeout: 3000,
       pauseOnHover: false,
+      showProgress: false,
     },
   },
   { Thumbs, Autoplay }

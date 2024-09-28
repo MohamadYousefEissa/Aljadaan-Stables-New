@@ -3,9 +3,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-nav li:nth-child(6) {
-  font-weight: bold;
-}
+
 nav {
   position: static;
 }

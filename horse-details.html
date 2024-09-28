@@ -7,6 +7,10 @@
     <link rel="icon" href="./icons/browser-tap-icon.svg" />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
     />
     <link
@@ -59,37 +63,46 @@
         <h1>PHOTOS</h1>
         <div class="mt-5">
           <div class="f-carousel" id="myCarousel">
+            <!-- slide 1 -->
             <div
               class="f-carousel__slide"
-              data-thumb-src="https://lipsum.app/id/4/192x144"
+              data-thumb-src="https://lipsum.app/id/1/192x144"
+              data-src="https://lipsum.app/id/1/640x480"
+              data-fancybox="gallery"
             >
               <img
                 width="640"
                 height="480"
                 alt="horse-image"
-                data-lazy-src="https://lipsum.app/id/4/640x480"
+                data-lazy-src="https://lipsum.app/id/1/640x480"
+              />
+            </div>
+            <!-- slide 1 -->
+
+            <div
+              class="f-carousel__slide"
+              data-thumb-src="https://lipsum.app/id/2/192x144"
+              data-src="https://lipsum.app/id/2/640x480"
+              data-fancybox="gallery"
+            >
+              <img
+                width="640"
+                height="480"
+                alt="horse-image"
+                data-lazy-src="https://lipsum.app/id/2/640x480"
               />
             </div>
             <div
               class="f-carousel__slide"
-              data-thumb-src="https://lipsum.app/id/5/192x144"
+              data-thumb-src="https://lipsum.app/id/3/192x144"
+              data-src="https://lipsum.app/id/3/640x480"
+              data-fancybox="gallery"
             >
               <img
                 width="640"
                 height="480"
                 alt="horse-image"
-                data-lazy-src="https://lipsum.app/id/5/640x480"
-              />
-            </div>
-            <div
-              class="f-carousel__slide"
-              data-thumb-src="https://lipsum.app/id/6/192x144"
-            >
-              <img
-                width="640"
-                height="480"
-                alt="horse-image"
-                data-lazy-src="https://lipsum.app/id/6/640x480"
+                data-lazy-src="https://lipsum.app/id/3/640x480"
               />
             </div>
           </div>
@@ -160,6 +173,7 @@
     <script src="./layouts/header.js"></script>
     <script src="./layouts/footer.js" defer></script>
     <script src="./js/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
