@@ -11,7 +11,7 @@ nav img {
   filter: brightness(200%) saturate(50%);
 }
 #horse-bg {
-  height: 550px;
+  object-fit: cover;
 }
 #horse-name-box h1 {
   font-family: var(--sec-font-family);
@@ -53,14 +53,13 @@ section > h1 {
 }
 /* slider */
 #myCarousel img {
-  width: 1024px;
-  height: 576px;
+  width: 100vw;
+  height: 580px;
   border-radius: 20px;
 }
 
 #myCarousel {
   width: 100%;
-  padding: 1rem;
   filter: drop-shadow(0 0 10px #cacaca);
 }
 
@@ -69,7 +68,10 @@ section > h1 {
   justify-content: center;
   align-items: center;
 }
-
+.f-carousel {
+  --f-carousel-slide-padding: 0;
+  --f-carousel-spacing: 1rem;
+}
 .f-thumbs {
   margin-top: -4rem;
 }
@@ -79,11 +81,11 @@ section > h1 {
   --f-thumb-opacity: 0.8;
 }
 .f-thumbs img {
-  border-radius: 15px;
+  border-radius: 12px;
 }
 .f-thumbs__slide,
 .f-thumbs__slide__button {
-  width: 150px;
+  width: 160px;
   height: 100px;
 }
 .stallion {
@@ -123,8 +125,7 @@ hr {
 }
 @media screen and (max-width: 1024px) {
   #myCarousel img {
-    width: 720px;
-    height: 405px;
+    height: 505px;
     border-radius: 14px;
   }
 
@@ -137,7 +138,7 @@ hr {
     margin-top: -3.5rem;
   }
   #pedigree ul {
-    padding-left: 15px;
+    padding: 15px;
   }
   #pedigree li {
     width: 150px;
@@ -148,7 +149,7 @@ hr {
     height: 400px;
   }
   #pedigree ul {
-    padding-left: 15px;
+    padding: 15px;
   }
   #pedigree li {
     width: 150px;
@@ -156,12 +157,11 @@ hr {
 }
 @media screen and (max-width: 767px) {
   #myCarousel img {
-    width: 85vw;
-    height: auto;
     border-radius: 14px;
+    height: auto;
   }
   #pedigree ul {
-    padding-left: 0px;
+    padding: 0px;
   }
 
   #pedigree li {
@@ -195,6 +195,9 @@ hr {
     width: 16vw;
     height: 50px;
     margin-top: 1.5rem;
+  }
+  .f-thumbs__slide img {
+    border-radius: 6px;
   }
   #pedigree li {
     width: 100px;

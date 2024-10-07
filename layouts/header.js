@@ -3,7 +3,7 @@ const headerContent = `
       <div class="container">
         <div class="row">
           <div
-            class="col d-flex flex-row flex-md-column flex-lg-row justify-content-between align-items-center py-3 px-2"
+            class="col d-flex flex-row flex-md-column flex-lg-row justify-content-between align-items-center py-2 py-md-3 px-3"
           >
             <a href="./index.html"
               ><img src="./images/main-logo.svg" alt="Logo" class="img-fluid"
@@ -28,7 +28,7 @@ const headerContent = `
               <li><a href="./stallions.html">Stallions</a></li>
               <li><a href="#">Mares</a></li>
               <li><a href="#">Offsprings</a></li>
-              <li><a href="./contactus.html">Contact us</a></li>
+              <li><a href="#home-contactus" id="not-link">Contact us</a></li>
             </ul>
             <ul class="d-md-none p-0" id="mobile-menu">
               <li>
@@ -42,7 +42,7 @@ const headerContent = `
               <li><a href="./stallions.html">Stallions</a></li>
               <li><a href="#">Mares</a></li>
               <li><a href="#">Offsprings</a></li>
-              <li><a href="./contactus.html">Contact us</a></li>
+              <li><a href="#home-contactus" id="not-link">Contact us</a></li>
             </ul>
             <ul class="d-none d-md-flex p-0 align-items-end h-100 gap-3">
               <li><a href="#">EN</a></li>

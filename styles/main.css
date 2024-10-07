@@ -4,6 +4,7 @@
   --sec-color: #d2af7e;
   --main-font-family: "Montserrat";
   --sec-font-family: "Playfair";
+  --mobile-nav-height: 72px;
 }
 @font-face {
   font-family: "Montserrat";
@@ -60,13 +61,13 @@ footer a:hover img {
 #mobile-menu {
   position: fixed;
   display: grid;
-  top: 94px;
+  top: var(--mobile-nav-height);
   left: 0;
   width: 100%;
-  height: calc(100vh - 94px);
-  height: calc(100dvh - 94px);
+  height: calc(100vh - var(--mobile-nav-height));
+  height: calc(100dvh - var(--mobile-nav-height));
   z-index: 1;
-  background-color: var(--main-color);
+  background-color: var(--sec-color);
 }
 #mobile-menu a {
   width: 100%;
@@ -87,7 +88,7 @@ footer a:hover img {
 
 .hamburger svg {
   /* The size of the SVG defines the overall size */
-  height: 3em;
+  height: 2.8em;
   /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -122,13 +123,13 @@ footer a:hover img {
 }
 @media screen and (max-width: 767px) {
   nav {
-    background-color: var(--main-color);
+    background-color: var(--sec-color);
     position: fixed;
     top: 0;
     z-index: 1;
   }
   main {
-    margin-top: 94.29px;
+    margin-top: var(--mobile-nav-height);
   }
   nav a {
     color: #fff;
@@ -136,7 +137,7 @@ footer a:hover img {
 
   nav img {
     filter: brightness(0) invert(1);
-    width: 100px;
+    width: 90px;
   }
   footer a {
     width: auto;

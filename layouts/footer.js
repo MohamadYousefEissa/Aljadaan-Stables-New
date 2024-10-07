@@ -15,7 +15,7 @@ const footerContent = `
             <div class="d-flex flex-column gap-2 gap-md-0">
               <a href="./index.html">Home</a>
               <a href="index.html#home-article">About us</a>
-              <a href="./contactus.html" >Contact us</a>
+              <a href="#home-contactus" >Contact us</a>
             </div>
             <div class="d-flex flex-column gap-2 gap-md-0">
               <a href="./stallions.html">Stallions</a>
