@@ -70,7 +70,7 @@ main {
   background-color: #ffffffa3;
   border-radius: 16px;
   padding: 2.5rem;
-  margin-left: 6rem;
+  margin: 0 6rem;
 }
 
 #home-pure-horses p {
@@ -83,13 +83,14 @@ main {
 
 /* slider */
 #myCarousel img {
-  width: 100vw;
-  height: 580px;
+  width: 1024px;
+  height: 576px;
   border-radius: 20px;
 }
 
 #myCarousel {
   width: 100%;
+  padding: 0 1rem;
   filter: drop-shadow(0 0 10px #cacaca);
 }
 
@@ -152,7 +153,8 @@ form button {
     margin-left: -40vw;
   }
   #myCarousel img {
-    height: 505px;
+    width: 720px;
+    height: 405px;
     border-radius: 14px;
   }
 
@@ -173,9 +175,13 @@ form button {
   }
 }
 @media screen and (max-width: 767px) {
+  #myCarousel {
+    padding: 0;
+  }
   #myCarousel img {
     border-radius: 14px;
-    height: auto;
+    width: 95vw;
+    height: 53.4vw;
   }
   #home-pure-horses {
     display: flex;
@@ -183,7 +189,7 @@ form button {
   }
   #home-pure-horses #box {
     width: 95vw;
-    margin-left: 0;
+    margin: 0;
   }
   #home-bg-title {
     line-height: 60px;
@@ -206,7 +212,9 @@ form button {
     height: calc(100vh + 8rem);
     height: calc(100dvh + 8rem);
   }
-
+  .f-thumbs__viewport {
+    margin-top: 2.8rem;
+  }
   .f-thumbs__slide,
   .f-thumbs__slide__button {
     width: 16vw;

@@ -26,9 +26,9 @@ const headerContent = `
                 <a href="index.html#home-pure-horses">The indigenous breed</a>
               </li>
               <li><a href="./stallions.html">Stallions</a></li>
-              <li><a href="#">Mares</a></li>
-              <li><a href="#">Offsprings</a></li>
-              <li><a href="#home-contactus" id="not-link">Contact us</a></li>
+              <li><a href="./stallions.html">Mares</a></li>
+              <li><a href="./stallions.html">Offsprings</a></li>
+              <li><a href="index.html#home-contactus" id="not-link">Contact us</a></li>
             </ul>
             <ul class="d-md-none p-0" id="mobile-menu">
               <li>
@@ -40,9 +40,9 @@ const headerContent = `
                 >
               </li>
               <li><a href="./stallions.html">Stallions</a></li>
-              <li><a href="#">Mares</a></li>
-              <li><a href="#">Offsprings</a></li>
-              <li><a href="#home-contactus" id="not-link">Contact us</a></li>
+              <li><a href="./stallions.html">Mares</a></li>
+              <li><a href="./stallions.html">Offsprings</a></li>
+              <li><a href="index.html#home-contactus" id="not-link">Contact us</a></li>
             </ul>
             <ul class="d-none d-md-flex p-0 align-items-end h-100 gap-3">
               <li><a href="#">EN</a></li>

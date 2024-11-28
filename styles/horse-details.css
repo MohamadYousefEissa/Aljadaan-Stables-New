@@ -11,6 +11,7 @@ nav img {
   filter: brightness(200%) saturate(50%);
 }
 #horse-bg {
+  height: 600px;
   object-fit: cover;
 }
 #horse-name-box h1 {
@@ -53,13 +54,14 @@ section > h1 {
 }
 /* slider */
 #myCarousel img {
-  width: 100vw;
-  height: 580px;
+  width: 1024px;
+  height: 576px;
   border-radius: 20px;
 }
 
 #myCarousel {
   width: 100%;
+  padding: 0 1rem;
   filter: drop-shadow(0 0 10px #cacaca);
 }
 
@@ -104,11 +106,10 @@ hr {
 #pedigree li {
   border: 1px solid #000;
   border-radius: 8px;
+  padding: 0 3rem;
   font-weight: 600;
   text-align: center;
-  width: 200px;
-  text-wrap: wrap;
-  overflow-wrap: anywhere;
+  text-wrap: nowrap;
 }
 #pedigree ul {
   display: flex;
@@ -125,7 +126,8 @@ hr {
 }
 @media screen and (max-width: 1024px) {
   #myCarousel img {
-    height: 505px;
+    width: 720px;
+    height: 405px;
     border-radius: 14px;
   }
 
@@ -141,7 +143,7 @@ hr {
     padding: 15px;
   }
   #pedigree li {
-    width: 150px;
+    padding: 0 1rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -151,23 +153,18 @@ hr {
   #pedigree ul {
     padding: 15px;
   }
-  #pedigree li {
-    width: 150px;
-  }
 }
 @media screen and (max-width: 767px) {
+  #myCarousel {
+    padding: 0;
+  }
   #myCarousel img {
     border-radius: 14px;
-    height: auto;
+    width: 95vw;
+    height: 53.4vw;
   }
-  #pedigree ul {
-    padding: 0px;
-  }
-
   #pedigree li {
-    width: 120px;
-    padding: 0 3vw;
-    font-size: 12px !important;
+    padding: 0 1rem;
   }
   hr {
     width: 100%;
@@ -190,6 +187,9 @@ hr {
   #details-box .col {
     padding: 2rem;
   }
+  .f-thumbs__viewport {
+    margin-top: 2.8rem;
+  }
   .f-thumbs__slide,
   .f-thumbs__slide__button {
     width: 16vw;
@@ -199,21 +199,9 @@ hr {
   .f-thumbs__slide img {
     border-radius: 6px;
   }
-  #pedigree li {
-    width: 100px;
-  }
-}
-@media screen and (max-width: 405px) {
-  #pedigree li {
-    width: 90px;
-    padding: 0 5px;
-    font-size: 12px !important;
-  }
-}
-@media screen and (max-width: 374px) {
-  #pedigree li {
-    width: 80px;
-    padding: 0 5px;
-    font-size: 12px !important;
+
+  #pedigree ul {
+    padding: 0 10px;
+    font-size: 16px !important;
   }
 }
